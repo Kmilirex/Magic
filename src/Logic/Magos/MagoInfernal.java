@@ -1,12 +1,12 @@
 package Logic.Magos;
 
-import Logic.HabilidadMago;
+import Logic.Personaje;
 
-public class MagoInfernal implements HabilidadMago {
+public class MagoInfernal extends Personaje {
 
 
     @Override
-    public void lanzarHechizo() {
-        System.out.println("Lanzo un hechizo de lava infernal");
+    public void atacarEspecial(Personaje enemigo) {
+
     }
 }
