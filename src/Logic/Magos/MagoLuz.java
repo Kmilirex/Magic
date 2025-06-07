@@ -1,6 +1,11 @@
 package Logic.Magos;
 
-public class MagoLuz {
+import Logic.Personaje;
+
+public class MagoLuz extends Personaje {
+
+    @Override
+    public void atacarEspecial() {
+
+    }
 }
-// holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-// CHAOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
