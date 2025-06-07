@@ -22,6 +22,17 @@ public class Inventario {
         return null;
     }
 
+    public Objeto getObjetoPorNombre(String nombreObjeto) {
+        if (!estaVacia()) {
+            for (Objeto objeto: baul) {
+                if (objeto.getName().equals(nombreObjeto)) {
+                    return objeto;
+                }
+            }
+        }
+        return null;
+    }
+
     public int getCapacidadInventario() {
         return baul.size();
     }
