@@ -4,8 +4,9 @@ import Logic.HabilidadMago;
 import Logic.Personaje;
 
 public class MagoAbisal extends Personaje implements HabilidadMago {
-    public void encantar(){
-        return;
-    }
 
+    @Override
+    public void lanzarHechizo() {
+        System.out.println("Lanzo un hechizo");
+    }
 }
