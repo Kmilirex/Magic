@@ -9,4 +9,9 @@ public class MagoInfernal extends Personaje {
     public void atacarEspecial(Personaje enemigo) {
 
     }
+
+    @Override
+    public void establecerInventario() {
+
+    }
 }

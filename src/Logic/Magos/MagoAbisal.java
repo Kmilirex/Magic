@@ -8,4 +8,9 @@ public class MagoAbisal extends Personaje{
     public void atacarEspecial(Personaje enemigo) {
         System.out.println("Mago abisal realizó un ataque especial.");
     }
+
+    @Override
+    public void establecerInventario() {
+
+    }
 }

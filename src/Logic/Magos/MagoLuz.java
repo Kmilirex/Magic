@@ -8,4 +8,9 @@ public class MagoLuz extends Personaje {
     public void atacarEspecial(Personaje enemigo) {
 
     }
+
+    @Override
+    public void establecerInventario() {
+
+    }
 }
