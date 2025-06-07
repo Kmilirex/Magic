@@ -14,7 +14,7 @@ public class Inventario {
         if (!estaVacia()) {
             for (Objeto objeto: baul) {
                 if (objeto.getName().equals(nombreObjeto)) {
-                    return objeto;
+                    baul.remove(objeto);
                 }
             }
         }
