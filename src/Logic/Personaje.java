@@ -1,13 +1,12 @@
 package Logic;
 
-import Logic.Objetos.Objeto;
+import Logic.Objetos.Inventario;
 
-import java.util.List;
 
 public abstract class  Personaje {
 
     protected String name;
-    protected List<Objeto> inventario;
+    protected Inventario inventario;
     protected int vida;
     protected int defensa;
     protected int ataque;
@@ -17,6 +16,7 @@ public abstract class  Personaje {
     }
 
     public abstract void atacarEspecial(Personaje enemigo);
+    public abstract void establecerInventario();
 
 
     protected void recibirAtaque(int cantidadAtaque, String nombreEnemigo ) {
