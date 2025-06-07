@@ -5,7 +5,7 @@ import Logic.Personaje;
 public class MagoLuz extends Personaje {
 
     @Override
-    public void atacarEspecial() {
+    public void atacarEspecial(Personaje enemigo) {
 
     }
 }

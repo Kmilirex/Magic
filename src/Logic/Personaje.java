@@ -1,5 +1,7 @@
 package Logic;
 
+import Logic.Objetos.Objeto;
+
 import java.util.List;
 
 public abstract class  Personaje {
@@ -14,7 +16,7 @@ public abstract class  Personaje {
         enemigo.recibirAtaque(ataque,name);
     }
 
-    public abstract void atacarEspecial();
+    public abstract void atacarEspecial(Personaje enemigo);
 
 
     protected void recibirAtaque(int cantidadAtaque, String nombreEnemigo ) {

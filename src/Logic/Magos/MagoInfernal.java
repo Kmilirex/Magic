@@ -6,7 +6,7 @@ public class MagoInfernal extends Personaje {
 
 
     @Override
-    public void atacarEspecial() {
+    public void atacarEspecial(Personaje enemigo) {
 
     }
 }
