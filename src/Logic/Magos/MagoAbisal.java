@@ -7,6 +7,6 @@ public class MagoAbisal extends Personaje implements HabilidadMago {
 
     @Override
     public void lanzarHechizo() {
-        System.out.println("Lanzo un hechizo");
+        System.out.println("Lanzo un hechizo poderoso");
     }
 }
