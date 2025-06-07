@@ -3,7 +3,12 @@ package Logic.Objetos;
 public abstract class Objeto {
 
     protected String name;
-    protected abstract void consumir();
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }
