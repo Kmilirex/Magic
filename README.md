@@ -4,6 +4,7 @@ En el que consiste en acomodar y usar inteligentemente ciertas condiciones (Esta
 El juego cuenta con dos clases principales mago y guerrero y 3 sub clases por cada clase principal, para añadir variedad y distintas estrategias.
 
 MECANICAS
+
 #Estados
 - Estados: Son condiciones que modifican la partida (Mas/menos daño, defensa, otros efectos...)  es decir que los efectos son para ambos jugadores.
 - Cada 3 turnos se mostraran tres estados aleatorios distintos para cada jugador.
