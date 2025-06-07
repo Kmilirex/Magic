@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Inventario {
-    private List<Objeto> baul;
+    private final List<Objeto> baul;
     private int capacidad;
 
     public Inventario() {
